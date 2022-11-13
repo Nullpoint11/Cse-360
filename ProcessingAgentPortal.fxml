@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fill="#f28a23" layoutX="119.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Processing Agent Portal" underline="true">
+         <font>
+            <Font name="Dubai Medium" size="36.0" />
+         </font>
+      </Text>
+      <Text fill="#f28a23" layoutX="81.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Accepted Orders">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fill="#f28a23" layoutX="364.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Set Order Status">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <ScrollPane layoutX="56.0" layoutY="111.0" prefHeight="275.0" prefWidth="513.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="266.0" prefWidth="547.0">
+               <children>
+                  <Label layoutX="22.0" layoutY="26.0" text="12196" textFill="#f28a23" />
+                  <Label layoutX="22.0" layoutY="57.0" text="12196" textFill="#f28a23" />
+                  <Label layoutX="22.0" layoutY="86.0" text="12196" textFill="#f28a23" />
+                  <Label layoutX="22.0" layoutY="115.0" text="12196" textFill="#f28a23" />
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
